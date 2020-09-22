@@ -6,6 +6,9 @@ import Main from './src';
 
 export default function App() {
   return (
-   <Main />
+    <>
+      <StatusBar  barStyle="light-content"  backgroundColor="rgba(0,0,0,0.6)" translucent={false} />
+      <Main />
+    </>
   );
 }
