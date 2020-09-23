@@ -93,7 +93,7 @@ export default class LoginAnimation extends Component {
 
   closeAnimation() {
     Animated.timing(this.buttonOpacity, {
-      duration: 200,
+      duration: 300,
       toValue: 1,
       easing: Easing.ease,
     }).start(() => {});
